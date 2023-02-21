@@ -1,0 +1,31 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100vw;
+  height: 25vh;
+  background-color: #242424;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70vw;
+  height: 20vh;
+  border: 1px solid red;
+}
+
+.cro-container {
+  display: flex;
+  width: 330px;
+  height: 90px;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: column;
+  border: 1px solid blue;
+}
+
+.cro-text {
+  color: rgb(238, 236, 236);
+}

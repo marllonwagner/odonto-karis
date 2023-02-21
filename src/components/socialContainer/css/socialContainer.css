@@ -1,0 +1,17 @@
+.social-container {
+  display: flex;
+  width: 200px;
+  height: 100px;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid blue;
+}
+
+.face-logo {
+  width: 50px;
+  height: 50px;
+}
+.insta-logo {
+  width: 50px;
+  height: 50px;
+}
