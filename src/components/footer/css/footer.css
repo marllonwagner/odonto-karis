@@ -9,23 +9,26 @@
 
 .footer-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  align-items: flex-end;
   width: 70vw;
   height: 20vh;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .cro-container {
   display: flex;
-  width: 330px;
-  height: 90px;
+  width: 350px;
+  height: 70px;
   justify-content: space-around;
   align-items: flex-start;
   flex-direction: column;
-  border: 1px solid blue;
 }
 
 .cro-text {
+
   color: rgb(238, 236, 236);
+  font-weight: 600;
+  font-family: sans-serif;
 }
+

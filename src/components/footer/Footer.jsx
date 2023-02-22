@@ -7,6 +7,7 @@ export default function Footer() {
     <footer className='footer'>
       <div className='footer-container'>
 
+
         <div className='cro-container'>        
           <p
           className='cro-text'>RESPONSÁVEL TÉCNICO: DRA. Millena Karis </p>
@@ -14,8 +15,12 @@ export default function Footer() {
           <p className='cro-text'>EPAO:6423</p>
         </div>
 
-        <p>CONTATO: (21)99310-1654</p>
+        <div>
+        <p className='cro-text'>CONTATO: (21)99310-1654</p>
         <SocialContainer/>
+        </div>
+
+    
       </div>
     </footer>
   )
