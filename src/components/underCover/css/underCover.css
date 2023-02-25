@@ -1,0 +1,43 @@
+.under-cover {
+  display: flex;
+  justify-content: center;
+  max-width: 100vw;
+  height: 50vh;
+  padding-top: 100px;
+  background-color: rgb(238, 240, 240);
+}
+
+.presentation-container {
+  display: flex;
+  width: 75vw;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  /* border: 1px solid red; */
+}
+
+.presentation-text-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 40px;
+  max-width: fit-content;
+  height: 73px;
+
+
+}
+
+
+.presentation-title {
+  color: rgba(24, 24, 24, 0.742);
+  font-size: 45px;
+  font-weight: 550;
+
+}
+
+.presentation-text {
+  color: rgb(36, 36, 36);
+  font-size: 25px;
+  font-weight: 300;
+}
