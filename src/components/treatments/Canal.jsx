@@ -1,6 +1,6 @@
 import React from 'react'
 import canalIcon from '../../assets/icons/canalIcon.svg'
-import './css/canal.css'
+import './css/cards.css'
 
 export default function Canal() {
   return (

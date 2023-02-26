@@ -1,6 +1,6 @@
 import React from 'react'
 import clareamentoIcon from '../../assets/icons/clareamentoIcon.png'
-import './css/canal.css'
+import './css/cards.css'
 
 export default function Clareamento() {
   return (
@@ -11,7 +11,7 @@ export default function Clareamento() {
     src={clareamentoIcon} alt="ilustração de canal" />
     <span
     className='treatment-description'
-    >O tratamento de Canal consiste na retirada da parte mais interna do dente, chamada de polpa dental.</span>
+    >É um tratamento estético utilizado para tornar os dentes mais brancos.</span>
   </div>
   )
 }
