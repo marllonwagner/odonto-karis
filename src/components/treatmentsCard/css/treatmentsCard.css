@@ -1,0 +1,21 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100vw;
+  height: 73vh;
+  padding-top: 50px;
+  background-color: aliceblue;
+  
+}
+
+.secondary-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 95vw;
+  height: 68vh;
+  background-color: aliceblue;
+  
+}

@@ -6,6 +6,8 @@ import Implant from '../treatments/Implant'
 import Limpeza from '../treatments/Limpeza'
 import Orto from '../treatments/Orto'
 import Protese from '../treatments/Protese'
+import Restoration from '../treatments/Restoration'
+import './css/treatmentsCard.css'
 
 export default function TreatmentsCard() {
   return (
@@ -18,6 +20,7 @@ export default function TreatmentsCard() {
 <Limpeza />
 <Orto />
 <Protese />
+<Restoration />
       </div>
     </div>
   )

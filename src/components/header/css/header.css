@@ -28,8 +28,8 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 1050px;
-  height: 30px;
+  width: 50vw;
+  height: 30vh;
   /* border: 1px solid red; */
 }
 
@@ -38,7 +38,7 @@
   color: rgba(46, 46, 46, 0.742);
   font-family: sans-serif;
   font-weight: 600;
-  font-size: 23px;
+  font-size: 1vw;
 }
 
 .link-text:hover {
@@ -46,7 +46,7 @@
   color: rgba(142, 15, 15, 0.742);
   font-family: sans-serif;
   font-weight: 800;
-  font-size: 23px;
+  font-size: 24.6px;
 }
 
 .logo-img {

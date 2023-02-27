@@ -10,7 +10,7 @@
 
 .presentation-container {
   display: flex;
-  width: 75vw;
+  width: 85vw;
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
@@ -24,7 +24,7 @@
   flex-direction: column;
   padding-top: 15px;
   max-width: fit-content;
-  height: 200px;
+  height: 25vh;
   /* border: 1px solid blue; */
 
 
@@ -42,6 +42,7 @@
   font-size: 25px;
   font-weight: 300;
   font-family: sans-serif;
+  font-style: italic;
 }
 
 .presentation-links-container {
@@ -69,20 +70,19 @@
 }
 
 .images-container {
-  padding-top: 90px;
-  /* border: 1px solid red; */
+  padding-top: 70px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
-  width: 45vw;
+  flex-wrap:wrap;
+  width: 80vw;
   height: 45vh;
 }
 
 .clinic-images {
   padding: 10px;
   display: flex;
-  width: 300px;
-  height: 300px;
+  width: 20vw;
+  height: 25vh;
   box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
