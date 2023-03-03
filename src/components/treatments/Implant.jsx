@@ -11,7 +11,7 @@ export default function Implant() {
     src={implantIcon} alt="ilustração de canal" />
     <span
     className='treatment-description'
-    >Funciona como a raiz do dente e serve como um pilar para colocação da prótese dentária.</span>
+    >Implante dentário é a fixação de um pino de titânio no osso maxilar para substituir a raiz de um dente ausente, seguido pela fixação de um dente artificial para restaurar a função mastigatória e estética.</span>
   </div>
   )
 }

@@ -10,7 +10,7 @@ export default function Restoration() {
     src={restorationIcon} alt="ilustração de canal" />
     <span
     className='treatment-description'
-    >É um procedimento clínico com objetivo de reconstruir um dente mantendo sua estética e função.</span>
+    >Consiste na remoção da cárie ou a parte danificada do dente e preenche com material restaurador, para reparar a estrutura e a função do dente.</span>
   </div>
   )
 }

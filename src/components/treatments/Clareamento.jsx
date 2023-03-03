@@ -11,7 +11,7 @@ export default function Clareamento() {
     src={clareamentoIcon} alt="ilustração de canal" />
     <span
     className='treatment-description'
-    >É um tratamento estético utilizado para tornar os dentes mais brancos.</span>
+    >Clareamento dental é um tratamento estético que utiliza substâncias químicas para deixar os dentes mais brancos e brilhantes.</span>
   </div>
   )
 }

@@ -11,7 +11,7 @@ export default function Canal() {
       src={canalIcon} alt="ilustração de canal" />
       <span
       className='treatment-description'
-      >O tratamento de Canal consiste na retirada da parte mais interna do dente, chamada de polpa dental.</span>
+      >O tratamento de canal consiste na remoção da polpa dentária, que é a parte interna do dente, quando está infectada ou inflamada, o objetivo é salvar o dente e aliviar a dor e a inflamação.</span>
     </div>
   )
 }

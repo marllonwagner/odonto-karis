@@ -10,7 +10,7 @@ export default function Extraction() {
     src={extractionIcon} alt="ilustração de canal" />
     <span
     className='treatment-description'
-    >É um ato cirúrgico para remover um dente. Podem ser dentes siso, de leite ou permanentes em situação irreparável.</span>
+    >Extração dentária é a remoção de um dente da boca, feita para tratar problemas como cáries avançadas, infecções e fraturas.</span>
   </div>
   )
 }

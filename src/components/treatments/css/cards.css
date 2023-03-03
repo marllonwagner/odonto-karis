@@ -13,7 +13,7 @@
 
 .treatment-title {
   font-family: sans-serif;
-  font-size: 33px;
+  font-size: 1.5vw;
   font-style:italic;
   font-weight: 600;
   color: rgb(54, 54, 54);
@@ -24,7 +24,7 @@
 
 .treatment-description {
   font-family: sans-serif;
-  font-size: 20px;
+  font-size: 0.85vw;
   font-style:italic;
   font-weight: 520;
   color: rgb(54, 54, 54);
@@ -32,6 +32,7 @@
   padding: 2px;
   width: 18vw;
 }
+
 
 .treatment-image {
   height: 20vh;

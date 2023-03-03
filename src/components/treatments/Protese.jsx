@@ -10,7 +10,7 @@ export default function Protese() {
     src={proteseIcon} alt="ilustração de canal" />
     <span
     className='treatment-description'
-    >Tem como principal objetivo repor dentes que foram perdidos.</span>
+    >Prótese dentária pode ser removível ou fixa, feito para substituir um ou mais dentes ausentes, com o objetivo de melhorar a estética e a função mastigatória.</span>
   </div>
   )
 }

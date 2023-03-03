@@ -10,7 +10,7 @@ export default function Orto() {
     src={ortoIcon} alt="ilustração de canal" />
     <span
     className='treatment-description'
-    >É uma especialidade que corrige a posição dos dentes que estão posicionados de forma inadequada.</span>
+    >O objetivo da ortodontia é corrigir problemas relacionados à posição e alinhamento dos dentes e maxilares.</span>
   </div>
   )
 }
