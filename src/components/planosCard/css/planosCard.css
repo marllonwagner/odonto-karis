@@ -2,7 +2,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid black;
   max-width: 100vw;
+  height: 70vh;
+}
+
+.planos-card-second-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 90vw;
+  border: 1px solid black;
   height: 70vh;
 }
