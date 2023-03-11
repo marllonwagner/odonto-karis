@@ -1,0 +1,16 @@
+@media only screen and (max-width: 600px) {
+
+  .links-container {
+    display: none;
+  }
+
+  .menu-btn {
+    display: flex;
+    width: 12vw;
+
+  }
+
+  .logo-img {
+    width: 18vw;
+  }
+}
