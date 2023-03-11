@@ -6,7 +6,7 @@ import UnderCover from '../../components/underCover/UnderCover'
 
 export default function PlanosOdonto() {
   return (
-    <div>
+    <div className='planos-odonto'>
       <Header />
       <PlanosCard />
       <UnderCover/>

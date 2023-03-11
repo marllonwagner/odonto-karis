@@ -6,7 +6,7 @@ import './css/tratamentos.css'
 
 export default function Tratamentos() {
   return (
-    <div>
+    <div className='tratamentos'>
       <Header/>
       <TreatmentsCard/>
       <Footer/>

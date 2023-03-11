@@ -10,8 +10,10 @@ export default function Footer() {
 
         <div className='cro-container'>        
           <p
-          className='cro-text'>RESPONSÁVEL TÉCNICO: Dra. Millena Karis </p>
+          className='cro-text'>RESPONSÁVEL TÉCNICO:</p>
+          <p className='cro-text'>Dra. Millena Karis</p>
           <span className='cro-text'>CRO:49653</span>
+          {/* <p className='cro-text'> Clínica odontológica Karis & CIA</p> */}
           <p className='cro-text'>EPAO:6423</p>
         </div>
 
