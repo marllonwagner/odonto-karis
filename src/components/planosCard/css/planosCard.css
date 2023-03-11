@@ -8,10 +8,10 @@
 
 .planos-card-second-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
   width: 90vw;
-  border: 1px solid black;
+
   height: 70vh;
 }
