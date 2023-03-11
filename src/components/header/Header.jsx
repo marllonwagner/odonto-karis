@@ -30,9 +30,9 @@ export default function Header() {
           className='link-text'>Planos Odontológicos
           </Link>
 
-          <Link to='/harmonizacao'
+          {/* <Link to='/harmonizacao'
           className='link-text'>Harmonização Facial
-          </Link>
+          </Link> */}
 
           <Link to='/contato'
           className='link-text'>Contato e Localização
