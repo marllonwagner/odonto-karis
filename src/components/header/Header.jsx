@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import logo from '../../assets/icons/logo.svg'
 import './css/header.css'
@@ -6,6 +6,13 @@ import './css/headerMedia.css'
 import smartMenu from '../../assets/icons/smartMenu.svg'
 
 export default function Header() {
+
+const [ShowMenu , setShow ] = useState(false)
+
+const setMenu = () => {
+  setShow(!ShowMenu)
+}
+
   return (
     <header className='header'>
 
@@ -24,7 +31,9 @@ export default function Header() {
         </div>
         </Link>
 
-        <div className='menu-btn'>
+        <div
+        onClick={setMenu} 
+        className='menu-btn'>
           <img 
           className='menu-btn'
           src={smartMenu} alt="" />
