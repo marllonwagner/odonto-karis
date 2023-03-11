@@ -1,16 +1,16 @@
-import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import logo from '../../assets/icons/logo.svg'
 import './css/header.css'
 import './css/headerMedia.css'
 import smartMenu from '../../assets/icons/smartMenu.svg'
 
-export default function Header() {
+export default function Header(props) {
 
-const [ShowMenu , setShow ] = useState(false)
+  const {ShowMenu, setShow } = props
 
 const setMenu = () => {
   setShow(!ShowMenu)
+
 }
 
   return (

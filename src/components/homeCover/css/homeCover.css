@@ -1,7 +1,8 @@
 .home-cover {
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
   max-width: 100vw;
   height: 70vh;
   background-image: url('../../../assets/images/home-cover-blank.jpg');
