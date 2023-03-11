@@ -50,8 +50,9 @@
 }
 
 .logo-img {
-  height: 120px;
-  width: 120px;
+  /* height: 120px;
+  width: 120px; */
+  width: 5vw;
 }
 .logo-text {
   display: flex;
