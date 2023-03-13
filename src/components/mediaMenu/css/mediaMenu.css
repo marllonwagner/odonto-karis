@@ -6,6 +6,7 @@
   justify-content: space-evenly;
   align-items: flex-start;
   flex-direction: column;
+  transition: opacity 1s ease, max-height 1s ease;
   /* border: 1px solid red; */
 }
 
