@@ -7,11 +7,16 @@ import OdontoEmpresas from '../planos/OdontoEmpresas'
 import OdontoSantander from '../planos/OdontoSantaner'
 import Wdental from '../planos/Wdental'
 import './css/planosCard.css'
+import MediaMenu from '../mediaMenu/MediaMenu'
 
 
-export default function PlanosCard() {
+export default function PlanosCard(props) {
+
+  const {ShowMenu} = props;
+
   return (
     <div className='planos-card'>
+      {ShowMenu && <MediaMenu /> }
     <div className='planos-card-main-container'>
       <div className='planos-card-second-container'>
       <Amil />

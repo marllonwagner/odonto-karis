@@ -1,11 +1,15 @@
 import React from 'react'
 import whatsIcon from '../../assets/icons/whatsIcon.svg'
 import './css/map.css'
+import MediaMenu from '../mediaMenu/MediaMenu';
 
-export default function Map() {
+export default function Map(props) {
+
+  const {ShowMenu} = props;
+
   return (
     <div className='map-container'>
-
+      {ShowMenu && <MediaMenu /> }
       <div className='map-infos-container'>
         <div className='map-contato-container'>
         <p>Endereço : Rua Guaiacá, 764 - Loja C 
