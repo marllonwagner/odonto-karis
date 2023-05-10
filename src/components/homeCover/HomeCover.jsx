@@ -7,7 +7,7 @@ import coverImg from '../../assets/images/home-cover-blank.jpg'
 
 export default function HomeCover(props) {
 
-  const {ShowMenu} = props;
+  const { ShowMenu } = props;
   return (
     <section className='home-cover'>
       {ShowMenu && <MediaMenu /> }

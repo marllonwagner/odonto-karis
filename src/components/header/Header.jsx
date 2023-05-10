@@ -10,7 +10,6 @@ export default function Header(props) {
 
 const setMenu = () => {
   setShow(!ShowMenu)
-
 }
 
   return (

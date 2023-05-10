@@ -3,7 +3,9 @@ import { Link } from 'react-router-dom'
 import './css/mediaMenu.css'
 
 export default function MediaMenu() {
+
   return (
+ 
     <div className='links-container-media'>
           <Link to='/tratamentos'
           className='link-text-homecoverMedia'>Tratamentos
@@ -22,5 +24,8 @@ export default function MediaMenu() {
           </Link>
 
         </div>
+       
+   
+       
   )
 }
