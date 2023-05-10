@@ -1,6 +1,7 @@
 import React from 'react'
 import SocialContainer from '../socialContainer/SocialContainer'
 import './css/footer.css'
+import './css/footerMedia.css'
 
 export default function Footer() {
   return (
@@ -17,7 +18,7 @@ export default function Footer() {
           <p className='cro-text'>EPAO:6423</p>
         </div>
 
-        <div>
+        <div className='contact-box'>
         <p className='cro-text'>CONTATO: (21)99310-1654</p>
         <SocialContainer/>
         </div>

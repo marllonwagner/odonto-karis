@@ -1,0 +1,38 @@
+@media only screen and (max-width: 600px) { 
+  
+  .face-logo {
+    display: flex;
+    width: 4vh;
+  }
+  
+  .insta-logo {
+    display: flex;
+    width: 4vh;
+  }
+  
+  
+  .whatsIcon-container-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    /* border: 1px solid blue; */
+  }
+
+  .whatsIcon-footer {
+    display: flex;
+    width: 4vh;
+  }
+  
+  .social-container {
+    display: flex;
+    max-width: 50vw;
+    height: 6.8vh;
+    justify-content: space-between;
+    align-items: center;
+  
+   
+    border: 1px solid red;
+  }
+}
+  

@@ -3,6 +3,7 @@ import faceLogo from '../../assets/icons/faceLogo.svg'
 import instaLogo from '../../assets/icons/instaLogo.svg'
 import whatsIcon from '../../assets/icons/whatsIcon.svg'
 import './css/socialContainer.css'
+import './css/socialContainerMedia.css'
 
 export default function SocialContainer() {
   return (
