@@ -1,13 +1,13 @@
 .links-container-media {
   background-color: white;
   width: 100vw;
-  height: 40vh;
+  height: 25vh;
   display: flex;
   justify-content: space-evenly;
   align-items: flex-start;
   flex-direction: column;
-  transition: opacity 1s ease, max-height 1s ease;
-  /* border: 1px solid red; */
+  /* transition: opacity 1s ease, max-height 1s ease; */
+  border: 1px solid red;
 }
 
 .link-text-homecoverMedia {

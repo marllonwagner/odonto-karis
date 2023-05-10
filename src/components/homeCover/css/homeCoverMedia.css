@@ -1,29 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @media only screen and (max-width: 600px) {
 
-  .home-cover {
-    
+  .home-cover {   
     display: flex;
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
     max-width: 100vw;
-    height: 50vh;
+    height: fit-content;
     background-image: none;
     background-size: 40vw 20vh;
     background-repeat: no-repeat;
- 
-  
+     
   }
-
-  .cover-img-container {
   
+  .cover-img-container {
     display: flex;
   }
 
   .cover-img {
     display: flex;
-    max-width: 100vw;
+    max-width: 99.9vw;
+    /* height: 25vh; */
   }
 
   .whatsIcon-container {
@@ -49,11 +47,12 @@
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    width: 100vw;
-    height: 50vh;
+    width: 99.9vw;
+    height: 35vh;
     background-color: aliceblue;
     border-radius: 0% 0% 0% 0%;
     box-shadow: none;
+    /* border: 1px solid red; */
   }
   
   .contact-text { 
