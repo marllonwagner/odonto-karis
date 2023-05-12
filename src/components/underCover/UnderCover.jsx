@@ -28,7 +28,7 @@ export default function UnderCover({showPhotos}) {
         </div>
         {showPhotos &&
         <div className='images-container'>
-            <img className='clinic-images'
+            <img id='photo1' className='clinic-images'
               src={photo1} alt="foto da clinica" />
             <img id='photo2' className='clinic-images'
               src={photo2} alt="foto da clinica" />
