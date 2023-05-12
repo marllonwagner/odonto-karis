@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap');
 @media only screen and (max-width: 600px) {
 
   .header {
@@ -7,7 +8,37 @@
     width: 100vw;
     height: 9vh;
     background-color: rgb(238, 240, 240);
+   
  
+  }
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90vw;
+    height: 9vh;  
+  }
+
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+  }
+  .logo-text {
+    display: none;
+  }
+  
+  .logo-text-media {
+    margin-right: 4.2%;
+    font-family: 'PT Sans', sans-serif;
+    display: flex;
+    color: rgba(46, 46, 46, 0.742);
+    font-size: 3.2vh;
+    font-weight: 400;
+    letter-spacing: -2.0px;
+
   }
 
   .links-container {
@@ -17,10 +48,12 @@
   .menu-btn {
     display: flex;
     width: 12vw;
+  
 
   }
 
   .logo-img {
     width: 18vw;
+ 
   }
 }

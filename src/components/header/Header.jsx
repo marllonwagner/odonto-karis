@@ -20,16 +20,14 @@ const setMenu = () => {
         className='link-text'>
         <div className='logo-container'>
       
-    
           <img
             className='logo-img'
             src={logo} alt="logotipo" />
           <span className='logo-text'>ODONTO KARIS</span>
       
-       
         </div>
         </Link>
-
+        <span className='logo-text-media'>ODONTO KARIS</span>
         <div
         onClick={setMenu} 
         className='menu-btn'>

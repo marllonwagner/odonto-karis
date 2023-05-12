@@ -60,6 +60,11 @@
   font-weight: 400;
   letter-spacing: -2.5px;
 }
+
+.logo-text-media {
+  display: none;
+
+}
 .logo-text:hover {
   display: flex;
   color: rgba(46, 46, 46, 0.742);
