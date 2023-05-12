@@ -12,7 +12,7 @@
     align-items: center;
     flex-direction: column;
     width: 100vw;
-    height: 110vh;
+    height: 100vh;
     padding-top: 0px;
     background-color: white;
   
@@ -110,9 +110,11 @@
     overflow: auto;
     scroll-snap-type: x mandatory;
     justify-content: center;
-    align-items:center;
-    width: 80vw;
+    width: 100vw;
+    overflow-x: auto;
     height: 60vh;
+    align-items:center;
+  
  
   }
 
@@ -125,14 +127,16 @@
     box-shadow:none;
     
   }
+  
   .images-container img {
     position: sticky;
     left: 0;
     flex-shrink: 0;
-    width: 75vw;
-    height: 45vh;
+    width: auto;
+    height:100%;
     object-fit: cover;
     scroll-snap-align: start;
+    
   }
   
   .phone-number-planos {
