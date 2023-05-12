@@ -3,7 +3,7 @@
 
   #under-section {
     display: flex;
-    /* border: 1px solid red; */
+    
   }
 
   .under-cover {
@@ -12,7 +12,7 @@
     align-items: center;
     flex-direction: column;
     width: 100vw;
-    height: 100vh;
+    height: 110vh;
     padding-top: 0px;
     background-color: white;
   
@@ -112,15 +112,14 @@
     justify-content: center;
     align-items:center;
     width: 80vw;
-    height: 45vh;
-    /* border: 1px solid yellow; */
+    height: 60vh;
  
   }
 
   
   .clinic-images {
     display: flex;
-    padding: 10px;
+    padding: 5px;
     width: 20vw;
     height: 25vh;
     box-shadow:none;
@@ -131,7 +130,7 @@
     left: 0;
     flex-shrink: 0;
     width: 75vw;
-    height: 50vh;
+    height: 45vh;
     object-fit: cover;
     scroll-snap-align: start;
   }
