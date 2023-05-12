@@ -19,7 +19,7 @@ export default function HomeCover(props) {
         <span className='contact-text'>AGENDE SUA CONSULTA PELO NOSSO WHATSAPP <span className='phone-number'>99310-1654</span></span>
        
          <a className='whatsIcon-container' 
-         href='https://wa.me/5521993101654'> <img 
+         href='https://wa.me/5521993101654?text=Olá%2C%20gostaria%20de%20agendar%20uma%20consulta.'> <img 
          className='whatsIcon'
          src={whatsIcon} alt="icone-whatsapp" /></a>
       </div>

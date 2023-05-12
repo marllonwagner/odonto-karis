@@ -14,9 +14,9 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    width: 85vw;
+    width: 90vw;
     height: 12vh;
-    border: 1px solid red;
+    /* border: 1px solid red; */
   
   }
   
@@ -36,7 +36,8 @@
     color: rgb(238, 236, 236);
     font-weight: 600;
     font-family:'Montserrat', sans-serif;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
+    
   }
   
   .contact-box {
