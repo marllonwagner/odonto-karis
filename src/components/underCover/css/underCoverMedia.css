@@ -119,16 +119,15 @@
   }
 
   
-  .clinic-images {
+  /* .clinic-images {
     display: flex;
-    padding: 5px;
     width: 20vw;
     height: 25vh;
-    box-shadow:none;
     
-  }
-  
+  } */
   .images-container img {
+    box-shadow:none;
+    padding: 5px;
     position: sticky;
     left: 0;
     flex-shrink: 0;
@@ -138,6 +137,17 @@
     scroll-snap-align: start;
     
   }
+
+  #photo2 {
+    width: 86.9%;
+    height: 150%;
+  }
+
+  #photo3 {
+    width: 86.9%;
+   
+  }
+  
   
   .phone-number-planos {
     color: rgb(69, 69, 69);
