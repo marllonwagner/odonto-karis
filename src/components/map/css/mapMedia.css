@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@media only screen and (max-width: 600px) {
+.map-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  /* border: 1px solid green; */
+  max-width: 100vw;
+  height: 100vh;
+
+}
+
+.map {
+  /* border: 3px ridge gray; */
+  width: 80vw;
+  height: 50vh;
+  /* padding: 5px; */
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.map-infos-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  align-items: center;
+  height: 10vh;
+  font-size:1.5rem;
+  font-weight: 500;
+  font-family: 'Montserrat',sans-serif;
+  font-style: none;
+  color: rgb(41, 41, 41);
+  box-shadow:none;
+  padding-top: 6vh;
+  /* border: 1px solid red; */
+}
+
+.map-contato-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 94vw;
+  height: 9vh;
+}
+
+.whats-container-map{
+  padding-top: 0.5vh;
+
+}
+
+.como-chegar {
+  padding-top: 3vh;
+ 
+}
+}

@@ -1,7 +1,9 @@
 import React from 'react'
 import whatsIcon from '../../assets/icons/whatsIcon.svg'
 import './css/map.css'
+import './css/mapMedia.css'
 import MediaMenu from '../mediaMenu/MediaMenu';
+import WhatsIcon from '../whatsIcon/whatsIcon';
 
 export default function Map(props) {
 
@@ -12,14 +14,16 @@ export default function Map(props) {
       {ShowMenu && <MediaMenu /> }
       <div className='map-infos-container'>
         <div className='map-contato-container'>
-        <p>Endereço : Rua Guaiacá, 764 - Loja C 
-      </p>
-        <p>Telefone: 99310-1654 <img 
-        className='map-w-icon'
-        src={whatsIcon} alt="" /></p>
+        <p>Rua Guaiacá, 764 - loja C </p>
+        <p>Telefone: 99310-1654</p>
+
+        <div className='whats-container-map'>
+        <WhatsIcon/>
+        </div>
+
         </div>
       
-        <h4>Como Chegar?</h4>
+        <h4 className='como-chegar'>Como Chegar?</h4>
         
       </div>
     <iframe 
