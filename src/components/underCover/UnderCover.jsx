@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import './css/underCover.css'
 import './css/underCoverMedia.css'
 import photo1 from '../../assets/images/photo1.jpg'
-import photo2 from '../../assets/images/photo2.jpg'
+import photo2 from '../../assets/images/photo2new.webp'
 import photo3 from '../../assets/images/photo3.jpg'
 
 export default function UnderCover({showPhotos}) {
@@ -28,15 +28,19 @@ export default function UnderCover({showPhotos}) {
         </div>
         {showPhotos &&
         <div className='images-container'>
-          
+          <div className='images-wrapper'>
             <img id='photo1' className='clinic-images'
               src={photo1} alt="foto da clinica" />
+
+ 
             <img id='photo2' className='clinic-images'
               src={photo2} alt="foto da clinica" />
+
+
             <img id='photo3' className='clinic-images'
               src={photo3} alt="foto da clinica" />
               </div>
-        
+          </div>
 }
       </div>
     </section>
