@@ -9,6 +9,7 @@ export default function Restoration() {
     className='rst-treatment-image'
     src={restorationIcon} alt="ilustração de canal" />
     <span
+    id='rst-desc'
     className='treatment-description'
     >Consiste na remoção da cárie ou a parte danificada do dente e preenche com material restaurador, para reparar a estrutura e a função do dente.</span>
   </div>

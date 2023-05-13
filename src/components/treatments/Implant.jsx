@@ -10,6 +10,7 @@ export default function Implant() {
     className='impl-treatment-image'
     src={implantIcon} alt="ilustração de canal" />
     <span
+    id='impl-desc'
     className='treatment-description'
     >Implante dentário é a fixação de um pino de titânio no osso maxilar para substituir a raiz de um dente ausente, seguido pela fixação de um dente artificial para restaurar a função mastigatória e estética.</span>
   </div>

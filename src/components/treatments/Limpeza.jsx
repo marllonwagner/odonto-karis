@@ -9,6 +9,7 @@ export default function Limpeza() {
     className='lmp-treatment-image'
     src={limpezaIcon} alt="ilustração de canal" />
     <span
+    id='lmp-desc'
     className='treatment-description'
     >Remoção de tártaro, placa bacteriana e manchas dos dentes para prevenir doenças bucais e manter uma boa saúde bucal.</span>
   </div>

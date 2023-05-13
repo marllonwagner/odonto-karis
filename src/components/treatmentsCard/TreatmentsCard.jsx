@@ -8,7 +8,10 @@ import Orto from '../treatments/Orto'
 import Protese from '../treatments/Protese'
 import Restoration from '../treatments/Restoration'
 import './css/treatmentsCard.css'
+import'./css/treatmentsCardMedia.css'
 import MediaMenu from '../mediaMenu/MediaMenu'
+import '../treatments/css/cardsMedia.css'
+
 
 export default function TreatmentsCard(props) {
 
@@ -16,8 +19,11 @@ export default function TreatmentsCard(props) {
 
   return (
     <div className = 'main-container'>
-      <div className='secondary-container' >
+
       {ShowMenu && <MediaMenu /> }
+    <div className='empty-div'>
+    </div>
+      <div className='secondary-container' >
 <Canal />
 <Clareamento />
 <Extraction />
