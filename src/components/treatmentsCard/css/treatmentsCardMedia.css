@@ -19,7 +19,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
+    flex-direction: column;
+    flex-wrap: nowrap;
     width: 95vw;
     height: fit-content;
     background-color: none;
