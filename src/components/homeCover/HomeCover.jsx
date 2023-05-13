@@ -4,6 +4,7 @@ import './css/homeCoverMedia.css'
 import whatsIcon from '../../assets/icons/whatsIcon.svg'
 import MediaMenu from '../mediaMenu/MediaMenu';
 import coverImg from '../../assets/images/home-cover-blank-new.webp'
+import WhatsIcon from '../whatsIcon/whatsIcon';
 
 export default function HomeCover(props) {
 
@@ -17,11 +18,7 @@ export default function HomeCover(props) {
       
       <div className='contact-container'>
         <span className='contact-text'>AGENDE SUA CONSULTA PELO NOSSO WHATSAPP <span className='phone-number'>99310-1654</span></span>
-       
-         <a className='whatsIcon-container' 
-         href='https://wa.me/5521993101654?text=Olá%2C%20gostaria%20de%20agendar%20uma%20consulta.'> <img 
-         className='whatsIcon'
-         src={whatsIcon} alt="icone-whatsapp" /></a>
+        <WhatsIcon/>
       </div>
     </section>
   )

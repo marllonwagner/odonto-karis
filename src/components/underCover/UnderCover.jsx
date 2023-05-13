@@ -5,6 +5,7 @@ import './css/underCoverMedia.css'
 import photo1 from '../../assets/images/photo1.jpg'
 import photo2 from '../../assets/images/photo2new.webp'
 import photo3 from '../../assets/images/photo3.jpg'
+import WhatsIcon from '../whatsIcon/whatsIcon'
 
 export default function UnderCover({showPhotos}) {
   return (
@@ -12,7 +13,11 @@ export default function UnderCover({showPhotos}) {
       <div className='presentation-container'>
         <h3 className='presentation-title'>{showPhotos ? 'Clínica Odonto Karis': 'Não encontrou seu plano ?'}</h3>
         <div className='presentation-text-container'>
-          <p className='presentation-text'>{showPhotos ? 'Fundada em 2020, a clínica Odonto Karis tem como missão restaurar sorrisos e auto-estimas.': <span>Entre em contato agora mesmo pelo nosso WhatsApp : <span className='phone-number-planos'>99310-1654</span></span>}</p>
+          <p className='presentation-text'>{showPhotos ? 'Fundada em 2020, a clínica Odonto Karis tem como missão restaurar sorrisos e auto-estimas.': <span className='whats-text-planos'>Entre em contato agora mesmo pelo nosso WhatsApp : <span className='phone-number-planos'>99310-1654</span>
+          <div className='whats-container-planos'>
+          <WhatsIcon/>
+          </div>
+          </span>}</p>
           <p className='presentation-text'>{showPhotos ? 'Temos profissionais qualificados, prontos para atender suas necessidades.':'Nossos atendentes irão lhe fornecer as informações necessárias.' }</p>
           </div>
           <div className='presentation-links-container'>

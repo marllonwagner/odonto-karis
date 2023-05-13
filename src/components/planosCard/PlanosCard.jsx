@@ -8,6 +8,8 @@ import OdontoSantander from '../planos/OdontoSantaner'
 import Wdental from '../planos/Wdental'
 import './css/planosCard.css'
 import MediaMenu from '../mediaMenu/MediaMenu'
+import './css/planosCardMedia.css'
+import '../planos/css/pCardsMedia.css'
 
 
 export default function PlanosCard(props) {
