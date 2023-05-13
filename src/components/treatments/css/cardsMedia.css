@@ -49,7 +49,7 @@
   
   .clr-treatment-image {
     height: 25vh;
-    width: 78vw;
+    width: 70vw;
     /* padding: 2vh 0 2vh 0 */
   }
 
@@ -67,14 +67,14 @@
   
   .impl-treatment-image {
     height: 23.5vh;
-    width: 84vw;
+    width: 80vw;
 
   }
 
   .lmp-treatment-image {
     padding-top: 2vh;
     height: 22vh;
-    width: 70vw;
+    width: 60vw;
   }
 
   #lmp-desc {
@@ -83,7 +83,7 @@
   
   .rst-treatment-image {
     height: 25vh;
-    width: 70vw;
+    width: 60vw;
     padding-top: 2.5vh;
   }
 
