@@ -1,5 +1,4 @@
 import React from 'react'
-import whatsIcon from '../../assets/icons/whatsIcon.svg'
 import './css/map.css'
 import './css/mapMedia.css'
 import MediaMenu from '../mediaMenu/MediaMenu';

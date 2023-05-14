@@ -1,7 +1,6 @@
 import React from 'react'
 import './css/homeCover.css'
 import './css/homeCoverMedia.css'
-import whatsIcon from '../../assets/icons/whatsIcon.svg'
 import MediaMenu from '../mediaMenu/MediaMenu';
 import coverImg from '../../assets/images/home-cover-blank-new.webp'
 import WhatsIcon from '../whatsIcon/whatsIcon';

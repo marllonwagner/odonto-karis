@@ -1,3 +1,4 @@
+
 .header {
   display: flex;
   justify-content: center;
@@ -37,7 +38,7 @@
   color: rgba(46, 46, 46, 0.742);
   font-family: sans-serif;
   font-weight: 600;
-  font-size: 1vw;
+  font-size: 1.2vw;
 }
 
 .link-text:hover {
@@ -55,7 +56,7 @@
 .logo-text {
   display: flex;
   color: rgba(46, 46, 46, 0.742);
-  font-size: 38px;
+  font-size: 2.5vw;
   font-weight: 400;
   letter-spacing: -2.5px;
 }
@@ -67,7 +68,6 @@
 .logo-text:hover {
   display: flex;
   color: rgba(46, 46, 46, 0.742);
-  font-size: 38px;
   font-weight: 700;
   letter-spacing: -2.5px;
 }
@@ -75,6 +75,5 @@
 .menu-btn {
   display: none;
 }
-
 
 
