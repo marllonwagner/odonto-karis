@@ -7,6 +7,7 @@ import photo2 from '../../assets/images/photo2new.webp'
 import photo3 from '../../assets/images/photo3.jpg'
 import WhatsIcon from '../whatsIcon/whatsIcon'
 
+
 export default function UnderCover({showPhotos}) {
   return (
     <section id='under-section' className={showPhotos ? 'under-cover' :'under-cover-planos'}>
@@ -29,7 +30,6 @@ export default function UnderCover({showPhotos}) {
               className='aqui'><span className='aqui'>AQUI</span></Link></p>
 }
          
-
         </div>
         {showPhotos &&
         <div className='images-container'>
@@ -37,15 +37,14 @@ export default function UnderCover({showPhotos}) {
             <img id='photo1' className='clinic-images'
               src={photo1} alt="foto da clinica" />
 
- 
             <img id='photo2' className='clinic-images'
               src={photo2} alt="foto da clinica" />
-
 
             <img id='photo3' className='clinic-images'
               src={photo3} alt="foto da clinica" />
               </div>
           </div>
+     
 }
       </div>
     </section>
