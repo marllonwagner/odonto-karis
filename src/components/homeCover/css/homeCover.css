@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 .home-cover {
   display: flex;
   justify-content: center;
@@ -39,7 +41,7 @@ height: 80px;
 
 .contact-text {
  
-  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 2.8rem;
   /* font-size: 55px; */
   font-weight: 500;
@@ -48,4 +50,5 @@ height: 80px;
 
 .phone-number{
   color: rgb(26, 26, 26);
+  
 }

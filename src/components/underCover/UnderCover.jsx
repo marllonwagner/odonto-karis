@@ -14,7 +14,7 @@ export default function UnderCover({showPhotos}) {
       <div className='presentation-container'>
         <h3 className='presentation-title'>{showPhotos ? 'Clínica Odonto Karis': 'Não encontrou seu plano ?'}</h3>
         <div className='presentation-text-container'>
-          <p className='presentation-text'>{showPhotos ? 'Fundada em 2020, a clínica Odonto Karis tem como missão restaurar sorrisos e auto-estimas.': <span className='whats-text-planos'>Entre em contato agora mesmo pelo nosso WhatsApp : <span className='phone-number-planos'>99310-1654</span>
+          <p className='presentation-text'>{showPhotos ? 'Fundada em 2020, a clínica Odonto Karis tem como missão restaurar sorrisos e auto-estimas.': <span className='whats-text-planos'>Entre em contato agora mesmo pelo nosso WhatsApp : <span className='phone-number-planos'> 99310-1654 </span>
           <span className='whats-container-planos'>
           <WhatsIcon/>
           </span>

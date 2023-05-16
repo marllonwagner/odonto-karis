@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 @media only screen and (min-width: 601px) { 
 .header {
   display: flex;
@@ -6,6 +8,7 @@
   max-width: 100vw;
   height: 9vh;
   background-color: rgb(238, 240, 240);
+  
  
 }
 
@@ -21,7 +24,7 @@
   
 }
 .logo-container {
-  /* padding-top: 1vh; */
+  padding-left: 2.5vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -40,16 +43,16 @@
 .link-text {
   text-decoration: none;
   color: rgba(46, 46, 46, 0.742);
-  font-family: sans-serif;
+  font-family: 'Montserrat',sans-serif;
   font-weight: 600;
-  font-size: 1.2vw;
+  font-size: 1.2rem;
 }
 
 .link-text:hover {
   text-decoration: none;
   color: rgba(142, 15, 15, 0.742);
-  font-family: sans-serif;
-  font-weight: 800;
+  /* font-family: sans-serif;
+  font-weight: 800; */
 }
 
 .logo-img {
@@ -72,7 +75,7 @@
 .logo-text:hover {
   display: flex;
   color: rgba(46, 46, 46, 0.742);
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: -2.5px;
 }
 

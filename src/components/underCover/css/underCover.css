@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 @media only screen and (min-width: 601px) {
   .under-cover {
     display: flex;
@@ -46,14 +48,14 @@
     color: rgba(24, 24, 24, 0.742);
     font-size: 50px;
     font-weight: 550;
-    font-family: sans-serif;
+    font-family: 'Montserrat',sans-serif;
   }
   
   .presentation-text {
     color: rgb(69, 69, 69);
     font-size: 30px;
     font-weight: 300;
-    font-family: sans-serif;
+    font-family: 'Montserrat',sans-serif;
     font-style: italic;
   }
   
@@ -117,6 +119,9 @@
     font-family: sans-serif;
     font-style: italic;
   }
+
+  
+
 
 }
 

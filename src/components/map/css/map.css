@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 .map-container {
   display: flex;
@@ -30,7 +31,7 @@
   height: fit-content;
   font-size: 2rem;
   font-weight: 500;
-  font-family: sans-serif;
+  font-family:'Montserrat', sans-serif;
   font-style: italic;
   color: rgb(41, 41, 41);
   /* background-color: rgba(238, 240, 240, 0.779); */
@@ -55,6 +56,7 @@
 .como-chegar {
   font-size: 1.5rem;
   padding: 3vh;
+  font-family:'Montserrat', sans-serif;
 }
 
 /* .whatsIcon-container {

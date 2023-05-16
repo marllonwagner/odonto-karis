@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 .footer {
   display: flex;
   justify-content: center;
@@ -32,7 +34,7 @@
 .cro-text {
   color: rgb(238, 236, 236);
   font-weight: 600;
-  font-family: sans-serif;
+  font-family: 'Montserrat',sans-serif;
   font-size: 0.9vw;
 }
 

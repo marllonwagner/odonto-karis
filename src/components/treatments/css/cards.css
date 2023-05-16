@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 .treatment-container {
   display: flex;
   justify-content: center;
@@ -5,9 +7,10 @@
   flex-direction: column;
   /* border-radius: 5%; */
   width: 20vw;
-  height: 30vh;
+  height:50vh;
   /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
   /* background-color:rgba(138, 138, 138, 0.229); */
+  /* border: 1px solid red; */
  
 }
 
@@ -19,12 +22,13 @@
   color: rgb(54, 54, 54);
   color: rgb(244, 109, 109);
   padding: 1px;
+
 }
 
 
 .treatment-description {
-  font-family: sans-serif;
-  font-size: 0.85vw;
+  font-family:'Montserrat', sans-serif;
+  font-size: 1rem;
   font-style:italic;
   font-weight: 520;
   color: rgb(54, 54, 54);

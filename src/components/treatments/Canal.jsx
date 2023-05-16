@@ -1,5 +1,5 @@
 import React from 'react'
-import canalIcon from '../../assets/icons/canalIcon.svg'
+import canalIcon from '../../assets/icons/canalIcon.webp'
 import './css/cards.css'
 
 export default function Canal() {

@@ -1,6 +1,7 @@
 import React from 'react'
 import whatsIcon from '../../assets/icons/whatsIcon.svg'
 import '../homeCover/css/homeCoverMedia.css'
+import '../underCover/css/underCover.css'
 
 export default function WhatsIcon() {
   return (
