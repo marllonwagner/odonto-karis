@@ -3,16 +3,19 @@ import logo from '../../assets/icons/logo.svg'
 import './css/header.css'
 import './css/headerMedia.css'
 import smartMenu from '../../assets/icons/smartMenu.svg'
+import MediaMenu from '../mediaMenu/MediaMenu'
+import { useState } from 'react'
 
-export default function Header(props) {
+export default function Header() {
 
-  const {ShowMenu, setShow } = props
+  const [ShowMenu , setShow ] = useState(false);
 
 const setMenu = () => {
   setShow(!ShowMenu)
 }
 
   return (
+    <div>
     <header className='header'>
 
       <div className='header-container'>
@@ -57,5 +60,7 @@ const setMenu = () => {
 
       </div>
     </header>
+      {ShowMenu && <MediaMenu /> }
+    </div>
   )
 }

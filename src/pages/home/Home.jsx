@@ -8,13 +8,13 @@ import './css/HomeMedia.css'
 
 export default function Home() {
 
-  const [ShowMenu , setShow ] = useState(false);
+
 
 
   return (
     <div className='main'>
-      <Header ShowMenu = {ShowMenu} setShow={setShow} />
-      <HomeCover ShowMenu = {ShowMenu} />
+      <Header />
+      <HomeCover />
       <UnderCover showPhotos = {true}/>
       <Footer/>
     </div>

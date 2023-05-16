@@ -14,10 +14,9 @@
     display: flex;
     justify-content: center;
     max-width: 100vw;
-    height: 40vh;
-    padding-top: 100px;
+    height: fit-content;
+    padding:10vh 0 10vh 0;
     background-color: rgb(238, 240, 240);
-   
   }
   
   .presentation-container {

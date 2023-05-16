@@ -7,7 +7,7 @@
     align-items: center;
     width: 100vw;
     height: 9vh;
-    background-color: rgb(238, 240, 240);
+    /* background-color: rgb(238, 240, 240); */
    
  
   }
@@ -15,8 +15,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 90vw;
-    height: 9vh;  
+    width: 100vw;
+    height: 9vh; 
+    position: fixed; 
+    background-color: rgb(238, 240, 240);
+    box-shadow: rgb(38, 57, 77) 0px 0px 30px 0px;
   }
 
   .logo-container {
