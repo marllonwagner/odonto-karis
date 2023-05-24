@@ -4,7 +4,7 @@ import './css/mapMedia.css'
 import MediaMenu from '../mediaMenu/MediaMenu';
 import WhatsIcon from '../whatsIcon/whatsIcon';
 
-export default function Map(props) {
+export default function MapGoogle(props) {
 
   const {ShowMenu} = props;
 
