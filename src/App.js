@@ -5,6 +5,7 @@ import Home from './pages/home/Home';
 import Localizacao from './pages/localizacao/Localizacao';
 import PlanosOdonto from './pages/planos/PlanosOdonto';
 import Tratamentos from './pages/tratamentos/Tratamentos';
+import Quee from './pages/quee/Quee';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
   <Route path='/tratamentos' element={ <Tratamentos/> } />
   <Route path='/planos' element={ <PlanosOdonto/> } />
   <Route path='/contato' element={ <Localizacao/> } />
+  <Route path='/fila-virtual' element={ <Quee/> } />
 </Routes>
     </div>
   );
