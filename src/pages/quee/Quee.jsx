@@ -1,9 +1,16 @@
+import './css/quee.css'
+import Header from '../../components/header/Header'
+import QueeUperCover from '../../components/queeUpperCover/queeUperCover'
+
 export default function Quee() {
 
 
   return (
+ 
     <div className='quee'>
-      <p><h1>Fila virutal</h1></p> 
+    <Header />
+    <QueeUperCover />
     </div>
+ 
   )
 }

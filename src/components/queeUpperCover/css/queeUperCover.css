@@ -1,0 +1,23 @@
+@media only screen and (min-width: 601px) {
+* {
+  padding:0;
+  margin:0;
+  vertical-align:baseline;
+  list-style:none;
+  border:0
+  }
+
+
+.quee-uper-cover {
+
+background-color: #87CEEB;
+background-image: linear-gradient(to bottom right, #87CEEB, #00BFFF);
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+width: 80%;
+height: 30vh;
+
+  }
+}
