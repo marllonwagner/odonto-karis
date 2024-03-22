@@ -7,12 +7,13 @@ export default function Quee() {
 
 
   return (
- 
+    
     <div className='quee'>
     <Header />
     <QueeUperCover />
     <QueeContainer />
     </div>
+   
  
   )
 }
