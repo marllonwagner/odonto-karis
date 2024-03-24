@@ -13,7 +13,7 @@ export default function Administration() {
         method: 'DELETE',
       });
       if (response.ok) {
-        alert('Próximo paciente chamado com sucesso!');
+        alert('Próximo paciente foi chamado com sucesso!');
         console.log(response);
         // Atualize a lista de pessoas após chamar o próximo paciente com sucesso
         // Você pode optar por recarregar a página ou atualizar os dados diretamente, dependendo da sua preferência
