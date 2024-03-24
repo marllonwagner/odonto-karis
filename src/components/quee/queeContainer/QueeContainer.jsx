@@ -7,6 +7,7 @@ import QueeEntry from './QueeEntry'; // Importe o novo componente
 
 export default function QueeContainer() {
   const [peopleList, setPeopleList] = useState([]);
+  
 
   useEffect(() => {
     const fetchData = async () => {
@@ -22,7 +23,7 @@ export default function QueeContainer() {
 
     // Chame fetchData inicialmente
     fetchData();
-
+    
     // Use setInterval para chamar fetchData a cada segundo
     const interval = setInterval(fetchData, 2000);
 
