@@ -14,10 +14,18 @@ export default function QueeContainer() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('http://localhost:3000/quee');
-        const data = await response.json();
-        setPeopleList(data);
-        console.log('atualizou a fila');
+        const [response1, response2] = await Promise.all([
+          fetch('http://localhost:3000/quee'),
+          fetch('http://localhost:3000/quee/status')
+        ]);
+  
+        const data1 = await response1.json();
+        const data2 = await response2.json();
+  
+        setPeopleList(data1);
+        setIsQueeOpen(data2.status);
+        
+        console.log('Dados da fila e status da fila atualizados');
       } catch (error) {
         console.error('Erro ao obter os dados do backend:', error);
       }
@@ -25,7 +33,6 @@ export default function QueeContainer() {
   
     // Chame fetchData inicialmente
     fetchData();
-  
   }, []); // Coloque um array vazio para garantir que o useEffect seja executado apenas uma vez
 const socket = io('ws://localhost:3000');
 // Listen para mensagens do WebSocket
@@ -42,6 +49,16 @@ socket.on('nextPatientCalled',async function() {
   }
     
   });
+
+  socket.on('changeStatus',async function() {
+    try {
+      setIsQueeOpen(!isQueeOpen);
+      return socket.close
+    } catch (error) {
+      console.error('Erro ao obter os dados do backend:', error);
+    }
+      
+    });
 
 });
 

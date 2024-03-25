@@ -3,6 +3,7 @@ import React from 'react';
 import './css/administration.css';
 import Header from '../../components/header/Header';
 import QueeCall from '../../components/quee/queeAdm/QueeCall';
+import QueeManagerBtn from '../../components/quee/queeAdm/QueeManagerBtn';
 
 
 export default function Administration() {
@@ -27,11 +28,32 @@ export default function Administration() {
     }
   };
 
+  // const handleQuee = async () => {
+  //   try {
+  //     const response = await fetch('http://localhost:3000/quee/open-close', {
+  //       method: 'PATCH',
+  //     });
+  //     if (response.ok) {
+  //       alert('A fila foi aberta!');
+  //       console.log(response);
+  //       // Atualize a lista de pessoas após chamar o próximo paciente com sucesso
+  //       // Você pode optar por recarregar a página ou atualizar os dados diretamente, dependendo da sua preferência
+  //     } else {
+  //       throw new Error('Erro ao abrir a fila.');
+  //     }
+  //   } catch (error) {
+  //     console.error('Erro ao abrir a fila:', error);
+  //     alert('Erro ao abrir a fila. Por favor, tente novamente.');
+  //   }
+  // };
+
+
   return (
     
     <div>
       <Header />
       <QueeCall onCallNext={handleCallNext} />
+      <QueeManagerBtn />
     </div>
     
   );
