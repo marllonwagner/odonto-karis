@@ -3,10 +3,12 @@ import './css/queContainerMob.css';
 import './css/queeContainer.css';
 import QueeInstructions from './QueeInstructions';
 import PeopleCardContainer from './PeopleCardContainer';
-import QueeEntry from './QueeEntry'; // Importe o novo componente
+import QueeEntry from './QueeEntry'; 
+import { io } from 'socket.io-client';
 
 export default function QueeContainer() {
   const [peopleList, setPeopleList] = useState([]);
+  const [isQueeOpen, setIsQueeOpen] = useState(false)
   
 
   useEffect(() => {
@@ -20,16 +22,28 @@ export default function QueeContainer() {
         console.error('Erro ao obter os dados do backend:', error);
       }
     };
-
+  
     // Chame fetchData inicialmente
     fetchData();
-    
-    // Use setInterval para chamar fetchData a cada segundo
-    const interval = setInterval(fetchData, 2000);
-
-    // Retorne uma função de limpeza para limpar o intervalo quando o componente for desmontado
-    return () => clearInterval(interval);
+  
   }, []); // Coloque um array vazio para garantir que o useEffect seja executado apenas uma vez
+const socket = io('ws://localhost:3000');
+// Listen para mensagens do WebSocket
+socket.on('connect', function() {
+  
+socket.on('nextPatientCalled',async function() {
+  try {
+    const response = await fetch('http://localhost:3000/quee');
+    const data = await response.json();
+    setPeopleList(data);
+    return socket.close
+  } catch (error) {
+    console.error('Erro ao obter os dados do backend:', error);
+  }
+    
+  });
+
+});
 
   // Função para adicionar pessoa à fila
   const addPersonToQueue = async (person) => {
@@ -57,7 +71,7 @@ export default function QueeContainer() {
       <QueeInstructions />
       <PeopleCardContainer peopleList={peopleList} />
       {/* Renderize o componente QueeEntry e passe a função addPersonToQueue como prop */}
-      <QueeEntry onAddPerson={addPersonToQueue} />
+      { isQueeOpen ? <QueeEntry onAddPerson={addPersonToQueue} /> : <span>No momento a fila está fechada.</span>}
     </div>
   );
 }
