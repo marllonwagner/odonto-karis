@@ -4,6 +4,8 @@ import './css/administration.css';
 import Header from '../../components/header/Header';
 import QueeCall from '../../components/quee/queeAdm/QueeCall';
 import QueeManagerBtn from '../../components/quee/queeAdm/QueeManagerBtn';
+import QueeContainer from '../../components/quee/queeContainer/QueeContainer';
+import InServiceClearBtn from '../../components/quee/queeAdm/InServiceClearBtn';
 
 
 export default function Administration() {
@@ -54,6 +56,8 @@ export default function Administration() {
       <Header />
       <QueeCall onCallNext={handleCallNext} />
       <QueeManagerBtn />
+      <InServiceClearBtn />
+      <QueeContainer />
     </div>
     
   );

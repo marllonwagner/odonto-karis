@@ -21,13 +21,13 @@ export default function PlanosCard(props) {
       {ShowMenu && <MediaMenu /> }
     <div className='planos-card-main-container'>
       <div className='planos-card-second-container'>
-      <Amil />
+      {/* <Amil /> */}
       <MaisDental />
       <OdontoEmpresas />
       <Wdental />
       <Metlife />
-      <OdontoSantander />
-      <DentalUni />
+      {/* <OdontoSantander /> */}
+      {/* <DentalUni /> */}
       </div>
     </div>
      </div>

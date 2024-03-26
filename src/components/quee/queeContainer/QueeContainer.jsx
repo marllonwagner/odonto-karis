@@ -25,7 +25,6 @@ export default function QueeContainer() {
         setPeopleList(data1);
         setIsQueeOpen(data2.status);
         
-        console.log('Dados da fila e status da fila atualizados');
       } catch (error) {
         console.error('Erro ao obter os dados do backend:', error);
       }
@@ -60,24 +59,36 @@ socket.on('nextPatientCalled',async function() {
       
     });
 
+    socket.on('addPersonToQuee',async function() {
+      try {
+        const updatedDataResponse = await fetch('http://localhost:3000/quee');
+        const updatedData = await updatedDataResponse.json();
+        setPeopleList(updatedData);
+        return socket.close
+      } catch (error) {
+        console.error('Erro ao obter os dados do backend:', error);
+      }
+        
+      });
+
 });
 
   // Função para adicionar pessoa à fila
   const addPersonToQueue = async (person) => {
     try {
-      const response = await fetch('http://localhost:3000/quee/add', {
+      await fetch('http://localhost:3000/quee/add', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
         },
         body: JSON.stringify(person)
       });
-      await response.json();
+      // await response.json();
       
       // Atualize a lista de pessoas após adicionar uma pessoa
-      const updatedDataResponse = await fetch('http://localhost:3000/quee');
-      const updatedData = await updatedDataResponse.json();
-      setPeopleList(updatedData);
+      // const updatedDataResponse = await fetch('http://localhost:3000/quee');
+      // const updatedData = await updatedDataResponse.json();
+      // setPeopleList(updatedData);
     } catch (error) {
       console.error('Erro ao adicionar pessoa à fila:', error);
     }
@@ -85,7 +96,7 @@ socket.on('nextPatientCalled',async function() {
 
   return (
     <div className='quee-container'>
-      <QueeInstructions />
+      <QueeInstructions socket={socket}/>
       <PeopleCardContainer peopleList={peopleList} />
       {/* Renderize o componente QueeEntry e passe a função addPersonToQueue como prop */}
       { isQueeOpen ? <QueeEntry onAddPerson={addPersonToQueue} /> : <span>No momento a fila está fechada.</span>}
