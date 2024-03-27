@@ -60,7 +60,7 @@
 
     .inServicePatient {
       color: #7ed957; /* Cor verde claro */
-      text-shadow: 0 0 10px rgba(126, 217, 87, 0.8); /* Efeito de brilho */
+      text-shadow: 0 0 1px rgba(126, 217, 87, 1); /* Efeito de brilho */
       
     }
 
