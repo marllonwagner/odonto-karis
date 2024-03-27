@@ -51,3 +51,64 @@
 
   }
 
+  .container-left {
+    position:absolute;
+    width: 6vw; /* Largura da área onde o círculo se moverá */
+    height: 10vh; /* Altura da área onde o círculo se moverá */
+    left: 0;
+    margin-left: 5px
+  }
+
+  .circle-l {
+    position: absolute;
+    top: 50%; /* Alinha o círculo verticalmente ao meio da área */
+    left: 10; /* Inicia o círculo na extrema esquerda da área */
+    width: 20px; /* Largura do círculo */
+    height: 20px; /* Altura do círculo */
+    background-color: white; /* Cor do círculo */
+    border-radius: 50%; 
+    animation: moveUpDown-l 5s infinite alternate; /* Aplica a animação */
+  }
+  
+  @keyframes moveUpDown-l {
+    0% {
+      transform: translateY(-100px); /* Começa na posição inicial */
+    }
+    100% {
+      transform: translateY(90px); /* Move para cima */
+    }
+    
+    
+  }
+
+  .container-rigth {
+    position:absolute;
+    width: 6vw; /* Largura da área onde o círculo se moverá */
+    height: 10vh; /* Altura da área onde o círculo se moverá */
+    right: 0;
+    margin-right: 22px
+  }
+
+  .circle-r {
+    position: absolute;
+    top: 50%; /* Alinha o círculo verticalmente ao meio da área */
+    left: 10; /* Inicia o círculo na extrema esquerda da área */
+    width: 30px; /* Largura do círculo */
+    height: 30px; /* Altura do círculo */
+  /* Cor do círculo */
+    /* border-radius: 53% 47% 49% 51% / 93% 94% 6% 7% ; */
+    animation: moveUpDown-r 5s infinite alternate; /* Aplica a animação */
+  }
+
+  @keyframes moveUpDown-r {
+    0% {
+      transform: translateY(90px); /* Começa na posição inicial */
+    }
+    100% {
+      transform: translateY(-100px); /* Move para cima */
+    }
+    
+    
+  }
+
+  
