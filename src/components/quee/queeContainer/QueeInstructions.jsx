@@ -11,7 +11,7 @@ export default function QueeInstructions({socket}) {
       const response = await fetch('http://localhost:3000/quee/in-service');
       const data = await response.json();
       if (data.length === 0) {
-        setInservice('Aristotles Silva Montenegro');
+        setInservice('Ninguém');
       }else{
         setInservice(data.name)
       }
