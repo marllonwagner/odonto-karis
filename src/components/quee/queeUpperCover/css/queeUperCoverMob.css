@@ -62,11 +62,11 @@
   .circle-l {
     position: absolute;
     top: 50%; /* Alinha o círculo verticalmente ao meio da área */
-    left: 10; /* Inicia o círculo na extrema esquerda da área */
-    width: 20px; /* Largura do círculo */
-    height: 20px; /* Altura do círculo */
-    background-color: white; /* Cor do círculo */
-    border-radius: 50%; 
+    left: 0; /* Inicia o círculo na extrema esquerda da área */
+    width: 30px; /* Largura do círculo */
+    height: 30px; /* Altura do círculo */
+    /* background-color: white; */
+    /* border-radius: 50%;  */
     animation: moveUpDown-l 5s infinite alternate; /* Aplica a animação */
   }
   
@@ -75,7 +75,7 @@
       transform: translateY(-100px); /* Começa na posição inicial */
     }
     100% {
-      transform: translateY(90px); /* Move para cima */
+      transform: translateY(80px); /* Move para cima */
     }
     
     
@@ -102,7 +102,7 @@
 
   @keyframes moveUpDown-r {
     0% {
-      transform: translateY(90px); /* Começa na posição inicial */
+      transform: translateY(80px); /* Começa na posição inicial */
     }
     100% {
       transform: translateY(-100px); /* Move para cima */

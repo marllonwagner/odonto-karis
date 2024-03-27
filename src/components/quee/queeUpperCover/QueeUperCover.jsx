@@ -12,13 +12,10 @@ export default function QueeUperCover() {
       className='orto-img-quee'
       src={ortoIcon2} alt="orto icon" />
       <div className="container-left">
-          <div className="circle-l">
-          </div>
+            <img className="circle-l" src={toothOrthoIcon} alt="dente" /> 
       </div>
       <div className="container-rigth">
-          
-            <img className="circle-r" src={toothOrthoIcon} alt="dente" />
-          
+            <img className="circle-r" src={toothOrthoIcon} alt="dente" /> 
       </div>
     </div>
   )
