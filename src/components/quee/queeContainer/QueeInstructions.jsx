@@ -43,14 +43,23 @@ export default function QueeInstructions({socket}) {
 
   return (
     <div className='quee-instructions'>
-      <div className='hist-inService-container'>
-            <div className='inService-container'> <span>Em atendimento</span>: <span>{inService}</span> </div>
-      </div>
-
+      
       <div className='instructions-container'> 
-        <span className='instructions'>atenção! esteja presente ao ser chamado, caso contrário será removido da fila.</span>
+
+        
+          <span className='atention'>Atenção !</span> 
+          <span className='instructions'>
+            Esteja presente ao ser chamado, caso contrário será removido da fila.
+          </span>
+        
+
       </div>
      
+      <div className='inService-container'> 
+        <span>Em atendimento:</span> <span>{inService}</span> 
+      </div>
+     
+
     </div>
   );
 }

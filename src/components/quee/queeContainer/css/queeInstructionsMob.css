@@ -12,7 +12,7 @@
       width: 100%;
       min-height: 15vh;
       display: flex;
-      justify-content: center;
+      justify-content:space-between;
       align-items: center;
       flex-direction: column;
       background-color: white;
@@ -27,6 +27,37 @@
       width: 90%; /* Define a largura da borda como 80% */
       height: 1.5px;
       background-color: #87CEEB;
+    }
+
+    .instructions-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      
+    }
+
+    .inService-container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      width: 100vw;
+    }
+
+    .atention {
+      margin-top: 0.4rem;
+      color: #d32f2ff1; /* Cor do texto branca */
+      font-size: 1.2rem;
+      font-weight: bold;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .instructions{
+      margin-top: 0.4rem;
+      color :#998f8f;
+      font-size: 1.1rem;
+      font-weight:600;
     }
     
   

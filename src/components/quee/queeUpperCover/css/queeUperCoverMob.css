@@ -75,7 +75,7 @@
       transform: translateY(-100px); /* Começa na posição inicial */
     }
     100% {
-      transform: translateY(80px); /* Move para cima */
+      transform: translateY(75px); /* Move para cima */
     }
     
     
@@ -102,7 +102,7 @@
 
   @keyframes moveUpDown-r {
     0% {
-      transform: translateY(80px); /* Começa na posição inicial */
+      transform: translateY(75px); /* Começa na posição inicial */
     }
     100% {
       transform: translateY(-100px); /* Move para cima */
