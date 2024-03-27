@@ -5,7 +5,7 @@ import './css/queeUperCover.css'
 export default function QueeUperCover() {
   return (
     <div className='quee-uper-cover'>
-      <h1>UperCover</h1>
+      <h1 className='fila-virtual'>Fila Virtual</h1>
     </div>
   )
 }

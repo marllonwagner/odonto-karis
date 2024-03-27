@@ -45,7 +45,6 @@ export default function QueeInstructions({socket}) {
     <div className='quee-instructions'>
       <div className='hist-inService-container'>
             <div className='inService-container'> <span>Em atendimento</span>: <span>{inService}</span> </div>
-            <div className='history-container'> <span>Último atendimento: </span> </div>
       </div>
 
       <div className='instructions-container'> 

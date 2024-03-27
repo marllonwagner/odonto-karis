@@ -7,6 +7,7 @@ import PlanosOdonto from './pages/planos/PlanosOdonto';
 import Tratamentos from './pages/tratamentos/Tratamentos';
 import Quee from './pages/quee/Quee';
 import Administration from './pages/administracao/Administration';
+import Cadastro from './pages/cadastro/Cadastro';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
   <Route path='/contato' element={ <Localizacao/> } />
   <Route path='/fila-virtual' element={ <Quee/> } />
   <Route path='/adm-odk-frtx22wq' element={ <Administration/> } />
+  <Route path='/cadastro' element={ <Cadastro/> } />
 </Routes>
     </div>
    

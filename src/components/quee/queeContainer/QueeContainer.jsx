@@ -5,6 +5,7 @@ import QueeInstructions from './QueeInstructions';
 import PeopleCardContainer from './PeopleCardContainer';
 import QueeEntry from './QueeEntry'; 
 import { io } from 'socket.io-client';
+import QueeUperCover from '../queeUpperCover/QueeUperCover';
 
 export default function QueeContainer() {
   const [peopleList, setPeopleList] = useState([]);
@@ -96,6 +97,7 @@ socket.on('nextPatientCalled',async function() {
 
   return (
     <div className='quee-container'>
+      <QueeUperCover />
       <QueeInstructions socket={socket}/>
       <PeopleCardContainer peopleList={peopleList} />
       {/* Renderize o componente QueeEntry e passe a função addPersonToQueue como prop */}
