@@ -1,6 +1,5 @@
-// PeopleCardContainer.js
-
 import React from 'react';
+import './css/peopleCardContainer.css'
 
 function PeopleCardContainer({ peopleList }) {
   return (

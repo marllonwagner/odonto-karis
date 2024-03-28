@@ -1,0 +1,29 @@
+@media only screen and (max-width: 600px) {
+
+  * {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+    }
+
+
+    .people-card-container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      border: 1px solid red;
+    }
+
+    .people-card {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      border: 1px solid blue;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+    }
+}
