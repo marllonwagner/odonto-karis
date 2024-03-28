@@ -10,6 +10,7 @@ import QueeUperCover from '../queeUpperCover/QueeUperCover';
 export default function QueeContainer() {
   const [peopleList, setPeopleList] = useState([]);
   const [isQueeOpen, setIsQueeOpen] = useState(false)
+
   
 
   useEffect(() => {
@@ -43,7 +44,8 @@ socket.on('nextPatientCalled',async function() {
     const response = await fetch('http://localhost:3000/quee');
     const data = await response.json();
     setPeopleList(data);
-    return socket.close
+    // return socket.close
+    return
   } catch (error) {
     console.error('Erro ao obter os dados do backend:', error);
   }
@@ -77,15 +79,16 @@ socket.on('nextPatientCalled',async function() {
   // Função para adicionar pessoa à fila
   const addPersonToQueue = async (person) => {
     try {
-      await fetch('http://localhost:3000/quee/add', {
+    const response =  await fetch('http://localhost:3000/quee/add', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
         },
         body: JSON.stringify(person)
+       
       });
-      // await response.json();
-      
+      const data = await response.json();    
+      localStorage.setItem('patientName', data.patient);
       // Atualize a lista de pessoas após adicionar uma pessoa
       // const updatedDataResponse = await fetch('http://localhost:3000/quee');
       // const updatedData = await updatedDataResponse.json();
